@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'RobotoSlabRegular';
+  src: url(../fonts/roboto-slab/RobotoSlab-Regular.ttf); }
+
+@font-face {
+  font-family: 'SocialMediaFont';
+  src: url(../fonts/social_media_circled/Social-Media-Circled.otf); }
+
+/***************Estilos-Generales***************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../backgrounds/email-pattern/email-pattern.png);
+  font-family: 'Poppins', sans-serif; }
+
+li {
+  list-style: none; }
+
+.titulo {
+  font-size: 3rem;
+  text-shadow: 2px 3px rgba(199, 26, 202, 0.733);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem; }
+
+.subtitulo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 3px rgba(199, 26, 202, 0.733);
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem; }
+
+.parrBoxEstilo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeaea;
+  width: 80%;
+  margin: 1.5rem;
+  padding: 2rem;
+  border: 2px solid black;
+  box-shadow: 4.3px 5px rgba(134, 27, 127, 0.397); }
+
+.parrDescription {
+  font-family: 'RobotoSlabRegular';
+  font-size: 1.3rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin: 1.5rem;
+  margin-bottom: 4rem; }
+
+.parrBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem; }
+
+.marg-padd {
+  padding-bottom: 80px; }
+
+.socialIcons {
+  font-family: SocialMediaFont; }
+
+/***************Estilos Tarjetas - Pág. Index y Servicios***************/
+.estilosCard {
+  border: 1px solid black;
+  padding: 2rem;
+  box-shadow: 3px 4px black;
+  text-align: center;
+  border-radius: 5px; }
+
+.estilosCardCliente {
+  border: 2px solid rgba(46, 13, 61, 0.774);
+  padding: 2rem;
+  text-align: center;
+  transition: 0.4s; }
+  .estilosCardCliente:hover {
+    background-color: #6bf1f1;
+    border: 2px solid black;
+    text-shadow: 1px 1px #9e9e9e;
+    color: black; }
+
+/***************Pág.Portafolio***************/
+.boxPort {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
+  margin: 1.5rem; }
+  .boxPort .boxPort__project {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    font-family: 'RobotoSlabRegular';
+    background-color: #6bf1f1;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: 0.2s; }
+    .boxPort .boxPort__project:hover {
+      background-color: rgba(199, 26, 202, 0.733);
+      transform: scale(1.02);
+      box-shadow: 3.7px 4.5px rgba(46, 13, 61, 0.774); }
+    .boxPort .boxPort__project .boxPort__project__decription {
+      text-align: center; }
+    .boxPort .boxPort__project p {
+      font-size: 1.1rem; }
+
+/***************Pág.Contacto - Estilos Formulario***************/
+.boxForm {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  padding-bottom: 5rem; }
+  .boxForm form {
+    border: 1px solid black;
+    padding: 3rem;
+    padding-bottom: 2rem;
+    box-shadow: 3px 4px black;
+    border-radius: 5px;
+    background-color: #eeeaea; }
+    .boxForm form input, .boxForm form textarea {
+      background-color: #6bf1f1;
+      border-radius: 8px;
+      margin: 0.2rem;
+      padding: 0.1rem;
+      border: 1px solid black; }
+
+/***************Pág.Acerca de mí***************/
+.acercaDeMi-img {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem; }
+
+/***************Footer***************/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem 0; }
+  footer .sigueme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: #0e0d0d;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem; }
+    footer .sigueme h2 {
+      font-size: 1.2rem; }
+    footer .sigueme ul {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0; }
+    footer .sigueme ul li {
+      padding: 0.3rem; }
+    footer .sigueme ul li a {
+      text-decoration: none;
+      font-size: 1.7rem;
+      color: #da63da; }
+      footer .sigueme ul li a:hover {
+        color: #6bf1f1; }
+  footer h3 {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    font-family: 'RobotoSlabRegular'; }

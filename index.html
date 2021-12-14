@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--Responsive-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Estilos de Bootsrap-->
+      <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+      <!--Estilos CSS-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+      <!--Inicio SEO-->
+
+      <!--Título página-->
+      <title>SebaTorres | Desarrollador Web Front End</title>
+      <!--Palabras claves-->
+      <meta name="keywords" content="Programador Web, Diseño Profesional, Móvil, HTML, CSS, JavaScript, RectJS">
+      <!--Descriptiob-->
+      <meta name="description"
+        content="Desarrollador Web Frontend Profesional con experiencia en diversos y atractivos proyectos Tecnológicos ¡Te invito a conocer más!">
+
+      <!--Fin SEO-->
+
+  </head>
+  <body> 
+    <header>
+      <!--Nav Bootstrap-->
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="pages/servicios.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="pages/servicios.html">Desarrollo Web</a></li>
+                  <li><a class="dropdown-item" href="pages/servicios.html">Desarrollo App Móvil</a></li>
+                  <li><a class="dropdown-item" href="pages/servicios.html">Diseño UX/UI</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/portafolio.html">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/acercademi.html">Acerca de mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--Layout con Boostrap-->
+    <main class="container-fluid">
+        <h1 class="titulo">Desarrollador Front End</h1>
+        <p class="parrDescription">¡Hola! soy Sebastián, y te doy la bienvenida a mi Portafolio...<br>
+          te invito a que sigas navegando y conozcas algo más sobre mis creaciones!
+        </p>  
+        <div class="row marg-padd">
+            <div class="col d-flex justify-content-center">
+                <div class="card estilosCard" style="width: 18rem;">
+                    <img src="img/desarrollo-web.png" class="card-img-top" alt="Desarrollo Web" data-bs-toggle="modal" data-bs-target="#modalTarjetOne">
+                    <div class="modal fade" id="modalTarjetOne">
+                      <div class="modal-dialog p-2">
+                        <div class="modal-content p-2">
+                          <img src="img/designweb-modal.jpg" alt="Diseñamos tu Web">
+                          <h4>¡Diseñamos tu Página Web!</h4>
+                          <ul>
+                            <li>Pack 1: Precio $X.-</li>
+                            <li>Pack 2: Precio $X.-</li>
+                            <li>Pack 3: Precio $X.-</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">+30 Proyectos</h5>
+                      <p class="card-text">Entre Desarrollos Web, Landing Pages y Diseños en WordPress.</p>
+                      <a href="#" class="btn btn-danger">¡Clic a la imagén!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card estilosCard" style="width: 18rem;">
+                    <img src="img/aplicacion-movil.png" class="card-img-top" alt="Desarrollo UX/UI y más" data-bs-toggle="modal" data-bs-target="#modalTarjetTwo">
+                    <div class="modal fade" id="modalTarjetTwo">
+                      <div class="modal-dialog p-2">
+                        <div class="modal-content p-2">
+                          <img src="img/devapp-modal.jpg" alt="¡Desarrollo tu App Móvil!">
+                          <h4>¡Desarrollamos tu Aplicación Móvil!</h4>
+                          <ul>
+                            <li>Pack 1: Precio $X.-</li>
+                            <li>Pack 2: Precio $X.-</li>
+                            <li>Pack 3: Precio $X.-</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">+40 Proyectos</h5>
+                      <p class="card-text">Entre Desarrollo Android, Híbridas y Nativo, y Escalables.</p>
+                      <a href="#" class="btn btn-danger">¡Clic a la imagén!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card estilosCard" style="width: 18rem;">
+                  <img src="img/diseno-ux.png" class="card-img-top" alt="Aplicaciones Creativas" data-bs-toggle="modal"
+                    data-bs-target="#modalTarjetTres">
+                  <div class="modal fade" id="modalTarjetTres">
+                    <div class="modal-dialog p-2">
+                      <div class="modal-content p-2">
+                        <img src="img/creative-modal.jpg" alt="¡Tomamos tu idea y le damos vida!">
+                        <h4>¡Desarrollo UX/UI y más!</h4>
+                        <ul>
+                          <li>Pack 1: Precio $X.-</li>
+                          <li>Pack 2: Precio $X.-</li>
+                          <li>Pack 3: Precio $X.-</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">+80 Proyectos</h5>
+                    <p class="card-text">Entre App Creativas, Desarrollo Software y UX/UI Design.</p>
+                    <a href="#" class="btn btn-danger">¡Clic a la imagén!</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row marg-padd">
+          <h2 class="subtitulo">Clientes te cuentan su experiencia</h2>
+          <div class="col d-flex justify-content-center">
+            <div class="card estilosCardCliente" style="width: 18rem;">
+              <img src="img/cliente.png" class="card-img-top" alt="Servicio Desarrollo Web">
+              <div class="card-body">
+                <h5 class="card-title">Juán Pérez</h5>
+                <p class="card-text">Cumplio con mis expectativas, muy buen diseño y mejor servicio!</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col d-flex justify-content-center">
+            <div class="card estilosCardCliente" style="width: 18rem;">
+              <img src="img/cliente.png" class="card-img-top" alt="Servicio Desarrollo App Móvil">
+              <div class="card-body">
+                <h5 class="card-title">Claudio Ramírez</h5>
+                <p class="card-text">La Landing Page quedo buenísima, he conseguido muchos propesctos con ella hasta el momento!</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col d-flex justify-content-center">
+            <div class="card estilosCardCliente" style="width: 18rem;">
+              <img src="img/cliente.png" class="card-img-top" alt="Servicio UX/UI Cliente">
+              <div class="card-body">
+                <h5 class="card-title">Enrique Pereira</h5>
+                <p class="card-text">La Landing Page quedo buenísima, he conseguido muchos propesctos con ella hasta el momento!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="sigueme">
+          <h2>¡Sígueme!</h2>
+          <ul>
+            <li><a href="#" class="socialIcons">)</a></li>
+            <li><a href="#" class="socialIcons">Q</a></li>
+            <li><a href="#" class="socialIcons">C</a></li>
+          </ul>
+        </div>
+        <h3>Sitio Web desarrollado por Sebastián Torres.</h3>
+    </footer> 
+
+  <!--Script de Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>   
+  </body>
+</html>

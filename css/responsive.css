@@ -1,0 +1,178 @@
+@media (min-width: 1401px) {
+
+    .titulo {
+        font-size: 1.9rem;
+        margin-top: 2rem;
+        font-weight: bold;
+    }
+
+    .estilosCard {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        box-shadow: 3px 4px rgb(87, 9, 52);
+    }
+
+    .estilosCardCliente {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        box-shadow: 3px 4px rgb(87, 9, 52);
+    }
+
+}
+
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+    .estilosCard {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        box-shadow: 3px 4px rgb(87, 9, 52);
+    }
+
+    .estilosCardCliente {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        box-shadow: 3px 4px rgb(87, 9, 52);
+    }
+
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .estilosCard {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 3px 4px rgb(5, 155, 147);
+    }
+
+    .estilosCardCliente {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        box-shadow: 3px 4px rgb(5, 155, 147);
+    }
+
+    .box-icon {
+        display: none;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+  
+    .estilosCard {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 3px 4px rgb(87, 9, 52);
+    }
+
+    .estilosCardCliente {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        box-shadow: 3px 4px rgb(87, 9, 52);
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+   .estilosCard {
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+       box-shadow: 3px 4px rgb(5, 155, 147);
+   }
+
+   .estilosCardCliente {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    box-shadow: 3px 4px rgb(5, 155, 147);
+    }
+
+    .boxPort__project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxPort__project__p {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 575px) {
+
+     .estilosCard {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 3px 4px rgb(5, 155, 147);
+    }
+ 
+    .estilosCardCliente {
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     margin-right: 1rem;
+     box-shadow: 3px 4px rgb(5, 155, 147);
+    }
+
+    .boxPort__project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxPort__project__p {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .titulo {
+        font-size: 1rem;
+        margin-top: 2rem;
+        font-weight: bold;
+    }
+
+     .estilosCard {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 3px 4px rgb(5, 155, 147);
+    }
+ 
+    .estilosCardCliente {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        box-shadow: 3px 4px rgb(5, 155, 147);
+    }
+
+    .boxPort__project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .boxPort__project h2 {
+        font-size: 1.4rem;
+    }
+
+    .boxPort__project h3 {
+        font-size: 1.2rem;
+    }
+
+    .boxPort__project__p {
+        margin-top: 1rem;
+        text-align: center;
+    }
+}

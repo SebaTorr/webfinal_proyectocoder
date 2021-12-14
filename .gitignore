@@ -1,0 +1,5 @@
+# Lista de documentos y archivos que quiero ignorar al pushear a GitHub
+
+#Ignora carpetas:
+node_modules
+
