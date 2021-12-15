@@ -1,6 +1,15 @@
-////////////Partials////////////
+
+// Partials
 @import "partials/fonts";
-@import "partials/variables";
+@import "partials/varcustom";
+
+// Bootstrap scss
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+/*** Navbar scss Bootstrap modificado**/
+@import "bootstrap/scss/navbar";
 
 /***************Estilos-Generales***************/
 * {
