@@ -101,7 +101,7 @@
         flex-direction: column;
     }
 
-    .boxPort__project__p {
+    .boxPort__project p {
         margin-top: 1rem;
         text-align: center;
     }
@@ -129,7 +129,7 @@
         flex-direction: column;
     }
 
-    .boxPort__project__p {
+    .boxPort__project p {
         margin-top: 1rem;
         text-align: center;
     }
@@ -171,8 +171,15 @@
         font-size: 1.2rem;
     }
 
-    .boxPort__project__p {
-        margin-top: 1rem;
+    .boxPort__project p {
+        margin-top: 1.5rem;
         text-align: center;
+    }
+
+    .iconsDev {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0.5rem;
     }
 }
