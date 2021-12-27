@@ -1,7 +1,7 @@
 
 // Partials
 @import "partials/fonts";
-@import "partials/varcustom";
+@import "partials/variables";
 
 // Bootstrap scss
 @import "bootstrap/scss/functions";
@@ -21,6 +21,10 @@
 body {
     background-image: url(../backgrounds/email-pattern/email-pattern.png);
     font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin-bottom: 5rem;
 }
 
 li {
@@ -149,24 +153,52 @@ li {
 .boxForm {
     display: flex;
     justify-content: center;
-    padding: 1.5rem;
-    padding-bottom: 5rem;
+    padding: 2rem;
+    font-family: 'RobotoSlabRegular';
 
-    form {
-        border: 1px solid black;
-        padding: 3rem;
-        padding-bottom: 2rem;
-        box-shadow: 3px 4px black;
-        border-radius: 5px;
-        background-color: rgb(238, 234, 234);
+    .contactForm {
+        background-color: $moradoBase;
+        width: 45%;
+        padding: 1.5rem;
 
-        input, textarea {
-            background-color: rgb(107, 241, 241);
-            border-radius: 8px;
-            margin: 0.2rem;
-            padding: 0.1rem;
-            border: 1px solid black;
+        form {
+            margin: 0;
+            padding: 1em;
+
+
+            input {
+                width: 100%;
+                padding: 0.2rem;
+                border: none;
+                outline: 0;
+            }
+
+            textarea {
+                width: 100%;
+                border: none;
+                outline: 0;
+            }
+
+            button {
+                background: $celesteBase;
+                border: 1px solid black;
+                padding: 0.5rem 1rem;
+                box-shadow: 3px 4px rgba(134, 27, 127, 0.397);
+
+            }
+
         }
+    }
+
+    .contactInfo {
+        background-color: $celesteBase;
+        padding: 1.5rem;
+        width: 40%;
+
+        .nombreInfo {
+            font-size: 1.5rem;
+        }
+        
     }
 }
 

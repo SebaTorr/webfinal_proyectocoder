@@ -20,6 +20,11 @@
         box-shadow: 3px 4px rgb(87, 9, 52);
     }
 
+    .boxForm {
+        display: flex;
+
+    }
+
 }
 
 
@@ -57,9 +62,6 @@
         box-shadow: 3px 4px rgb(5, 155, 147);
     }
 
-    .box-icon {
-        display: none;
-    }
 }
 
 
@@ -78,7 +80,22 @@
         box-shadow: 3px 4px rgb(87, 9, 52);
     }
 
+    .boxForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .boxForm .contactForm {
+        width: 80% !important;
+    }
+
+    .boxForm .contactInfo {
+        width: 80% !important;
+    }
 }
+
 
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -104,6 +121,21 @@
     .boxPort__project p {
         margin-top: 1rem;
         text-align: center;
+    }
+
+    .boxForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .boxForm .contactForm {
+        width: 80% !important;
+    }
+
+    .boxForm .contactInfo {
+        width: 80% !important;
     }
 
 }
@@ -134,6 +166,20 @@
         text-align: center;
     }
 
+    .boxForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .boxForm .contactForm {
+        width: 80% !important;
+    }
+
+    .boxForm .contactInfo {
+        width: 80% !important;
+    }
 }
 
 @media (max-width: 400px) {
@@ -181,5 +227,20 @@
         justify-content: center;
         flex-wrap: wrap;
         padding: 0.5rem;
+    }
+
+    .boxForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .boxForm .contactForm {
+        width: 80% !important;
+    }
+
+    .boxForm .contactInfo {
+        width: 80% !important;
     }
 }
